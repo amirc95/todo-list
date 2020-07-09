@@ -1,0 +1,75 @@
+.App {
+  min-height: 100vh;
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 4vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input {
+  height: 25px;
+  font-size: 14pt;
+}
+
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li > button {
+  margin-left: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+input[type='checkbox'] {
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+  background: transparent;
+}
+
+.arrows {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow {
+  color: #a6a6a6;
+  cursor: pointer;
+}

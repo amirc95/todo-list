@@ -1,0 +1,9 @@
+{
+  "short_name": "React ToDo-App",
+  "name": "Simple React ToDo-App with CRUD",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
